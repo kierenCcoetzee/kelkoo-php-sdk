@@ -1,0 +1,20 @@
+{
+    "name": "kieren/kelkoo-php-sdk",
+    "description": "A php sdk for interacting with Kelkoo api endpoints",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kieren Coetzee",
+            "email": "kieren@kierencoetzee.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "KelkooSdk\\": "src/"
+        }
+    }
+}
